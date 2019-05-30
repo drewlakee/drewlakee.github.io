@@ -11,9 +11,11 @@ body {
   display: inline-block;
 }
 
-
-
 .links-group div {
   padding: 15px;
   padding-left: 0;
+}
+
+.pad20px {
+  padding: 20px;
 }
