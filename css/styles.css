@@ -1,3 +1,19 @@
 body {
     font-family: Arial,sans-serif;
   }
+
+.icoLogo {
+  height: 60px;
+  width: 60px;
+}  
+
+.inline-block {
+  display: inline-block;
+}
+
+
+
+.links-group div {
+  padding: 15px;
+  padding-left: 0;
+}
