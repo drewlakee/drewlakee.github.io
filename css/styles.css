@@ -1,6 +1,7 @@
 body {
     font-family: Arial,sans-serif;
     font-size: 60px;
+    text-align: center;
   }
 
 .icoLogo {
@@ -8,16 +9,34 @@ body {
   width: 250px;
 }  
 
-.inline-block {
-  display: inline-block;
-}
-
 .links-group div {
   padding: 40px;
   padding-left: 0;
+  display: inline-block;
+}
+
+.links-group {
+  display: none;
+}
+
+.links-group div:first-child {
+  padding-left: 40px;
 }
 
 .pad20px {
   padding: 20px;
+  display: none;
 }
 
+.myDog {
+  display: none;
+}
+
+.email {
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+a {
+  text-decoration: none;
+}
