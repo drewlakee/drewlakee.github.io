@@ -26,6 +26,8 @@ body {
 .pad20px {
   padding: 20px;
   display: none;
+  margin: 0 auto;
+  width: 1000px;
 }
 
 .myDog {
