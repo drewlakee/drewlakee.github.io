@@ -11,7 +11,7 @@ function showDog(){
     $(".myDog").fadeIn(2000);
 }
 
-$(".pad20px").fadeIn(2000);
+$(".page-body").fadeIn(2000);
 
 setTimeout(showLinks, 2000);
 
