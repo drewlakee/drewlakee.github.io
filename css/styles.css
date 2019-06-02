@@ -1,8 +1,9 @@
 body {
-    font-family: Arial,sans-serif;
-    font-size: 60px;
-    text-align: center;
-  }
+  font-family: Arial,sans-serif;
+  font-size: 60px;
+  text-align: center;
+    
+}
 
 .icoLogo {
   height: 250px;
@@ -35,8 +36,19 @@ body {
 .email {
   font-size: 30px;
   padding-top: 20px;
+  background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 a {
   text-decoration: none;
+}
+
+.dot {
+  display: none;
+}
+
+.sentence {
+  display: none;
 }
