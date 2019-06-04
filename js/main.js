@@ -9,7 +9,7 @@ function showLinks() {
 };
 
 function showDog() {
-    $(".myDog").fadeIn(2000);
+    $(".contacts").fadeIn(2000);
 }
 
 $(document).ready(function () {

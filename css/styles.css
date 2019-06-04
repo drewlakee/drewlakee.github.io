@@ -15,6 +15,11 @@ body {
   display: inline-block;
 }
 
+.icoLogo:hover {
+  transform: scale(1.05);
+  transition: 1s;
+}
+
 .links-group {
   display: none;
 }
@@ -29,20 +34,13 @@ body {
   margin: 0 auto;
 }
 
-.myDog {
+.contacts {
   display: none;
-}
-
-.email {
-  font-size: 30px;
-  padding-top: 20px;
-  background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
 }
 
 a {
   text-decoration: none;
+  color: #0371ff;
 }
 
 .dot {
@@ -51,4 +49,9 @@ a {
 
 .sentence {
   display: none;
+}
+
+.email {
+  font-size: 30px;
+  padding-top: 20px;
 }
