@@ -1,57 +1,134 @@
 body {
-  font-family: Arial,sans-serif;
+  font-family: "Segoe UI",Arial,sans-serif;
   font-size: 60px;
   text-align: center;
-    
-}
-
-.icoLogo {
-  height: 250px;
-  width: 250px;
-}  
-
-.links-group div {
-  padding: 40px;
-  display: inline-block;
-}
-
-.icoLogo:hover {
-  transform: scale(1.05);
-  transition: 1s;
-}
-
-.links-group {
-  display: none;
-}
-
-.links-group div:first-child {
-  padding-left: 40px;
 }
 
 .page-body {
-  padding: 20px;
-  display: none;
+  width: 960px;
   margin: 0 auto;
 }
 
-.contacts {
-  display: none;
+/*------------icons-----------------------*/
+
+.ico {
+  color: #cfcfcf;
+}  
+
+.icoGithub:hover {
+  transition: 2s;
+  color: black;
+}
+
+.icoGitlab:hover {
+  transition: 2s;
+  color: #e24329;
+}
+
+.icoVk:hover {
+  transition: 2s;
+  color: #4d76a1;
+
+}
+
+.icoTelegram:hover {
+  transition: 2s;
+  color: #32aee1;
+}
+
+/*------------links-----------------------*/
+
+.links-group a:nth-child(-n+4) {
+  display: inline-block;
+  float: left;
+  margin-right: 15px;
+  font-size: 40px;
+}
+
+.links-group {
+  line-height: 50px;
+  padding-top: 10px;
+}
+
+.mail {
+  color: #cfcfcf;
+  font-size: 25px;
+  display: inline-block;
+  float: left;
+  line-height: 35px;
+}
+
+.mail:hover {
+  transition: 2s;
+  color: #0371ff;
 }
 
 a {
   text-decoration: none;
-  color: #0371ff;
 }
 
-.dot {
+.u_link {
+  color: #00AB6B;
+}
+
+.u_link:hover {
+  text-decoration: underline;
+}
+
+
+/*------------info-container-----------------------*/
+
+.container {
+  position: absolute;              
+  top: 35%;                         
+  transform: translate(0, -50%);
   display: none;
 }
 
-.sentence {
-  display: none;
+h3 {
+  margin: 0;
 }
 
-.email {
+.profile_img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  display: inline-block;
+}
+
+.info_block {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.accountGroup {
+  vertical-align: top;
+  text-align: left;
   font-size: 30px;
-  padding-top: 20px;
 }
+
+.accountGroup h3, span {
+  line-height: 31px;
+}
+
+.fullName {
+  display: inline-block;
+}
+
+.userDog {
+  color: #657786;
+}
+
+.currYear::before {
+  content: "\00b7";
+}
+
+.currYear {
+  color: #657786;
+}
+
+.text-container {
+  font-size: 40px;
+  text-align: left;
+}
+
