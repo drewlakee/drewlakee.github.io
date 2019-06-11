@@ -16,23 +16,23 @@ body {
 }  
 
 .icoGithub:hover {
-  transition: 2s;
+  transition: 1s;
   color: black;
 }
 
 .icoGitlab:hover {
-  transition: 2s;
+  transition: 1s;
   color: #e24329;
 }
 
 .icoVk:hover {
-  transition: 2s;
+  transition: 1s;
   color: #4d76a1;
 
 }
 
 .icoTelegram:hover {
-  transition: 2s;
+  transition: 1s;
   color: #32aee1;
 }
 
@@ -59,7 +59,7 @@ body {
 }
 
 .mail:hover {
-  transition: 2s;
+  transition: 1s;
   color: #0371ff;
 }
 
