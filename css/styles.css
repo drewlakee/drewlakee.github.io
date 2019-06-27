@@ -2,6 +2,7 @@ body {
     font-family: "Segoe UI", Arial, sans-serif;
     font-size: 60px;
     text-align: center;
+    background-image: url("/images/background.gif");
 }
 
 .page-body {
@@ -97,7 +98,7 @@ a {
     vertical-align: top;
 }
 
-.video-container {
+.background-container {
     position: fixed;
     top: 0;
     left: 0;
