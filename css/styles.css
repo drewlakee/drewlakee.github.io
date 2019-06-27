@@ -36,9 +36,16 @@ body {
   color: #32aee1;
 }
 
+.icoInstagram:hover {
+  transition: 1s;
+  background: -webkit-linear-gradient(powderblue, pink);
+  color:transparent;
+  -webkit-background-clip: text;
+}
+
 /*------------links-----------------------*/
 
-.links-group a:nth-child(-n+4) {
+.links-group a:nth-child(-n+5) {
   display: inline-block;
   float: left;
   margin-right: 15px;
