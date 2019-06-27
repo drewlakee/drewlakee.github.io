@@ -1,8 +1,5 @@
 function showContainer() {
-    $('.container').css({ marginTop: 300 }).fadeIn({ queue: false, duration: 2000 });
-    $('.container').animate({
-        marginTop: 0
-    }, 1500);
+    $('.container').fadeIn({ queue: false, duration: 2000 });
 };
 
 $(document).ready(function () {
