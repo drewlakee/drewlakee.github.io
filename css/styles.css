@@ -1,141 +1,104 @@
 body {
-  font-family: "Segoe UI",Arial,sans-serif;
-  font-size: 60px;
-  text-align: center;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 60px;
+    text-align: center;
 }
 
 .page-body {
-  width: 960px;
-  margin: 0 auto;
+    width: 100%;
+    margin: 0 auto;
 }
 
 /*------------icons-----------------------*/
 
 .ico {
-  color: #cfcfcf;
-}  
+    color: #cfcfcf;
+    opacity: .3;
+}
 
 .icoGithub:hover {
-  transition: 1s;
-  color: black;
+    transition: 1s;
+    color: black;
+    opacity: 1;
 }
 
 .icoGitlab:hover {
-  transition: 1s;
-  color: #e24329;
+    transition: 1s;
+    color: #e24329;
+    opacity: 1;
 }
 
 .icoVk:hover {
-  transition: 1s;
-  color: #4d76a1;
-
+    transition: 1s;
+    color: #4d76a1;
+    opacity: 1;
 }
 
 .icoTelegram:hover {
-  transition: 1s;
-  color: #32aee1;
+    transition: 1s;
+    color: #32aee1;
+    opacity: 1;
 }
 
 .icoInstagram:hover {
-  transition: 1s;
-  background: -webkit-linear-gradient(powderblue, pink);
-  color:transparent;
-  -webkit-background-clip: text;
+    transition: 1s;
+    background: -webkit-linear-gradient(powderblue, pink);
+    color: transparent;
+    -webkit-background-clip: text;
+    opacity: 1;
 }
 
 /*------------links-----------------------*/
 
 .links-group a:nth-child(-n+5) {
-  display: inline-block;
-  float: left;
-  margin-right: 15px;
-  font-size: 40px;
+    display: block;
+    float: left;
+    margin-right: 15px;
+    font-size: 40px;
 }
 
 .links-group {
-  line-height: 50px;
-  padding-top: 10px;
+    line-height: 50px;
+    padding-top: 10px;
 }
 
 .mail {
-  color: #cfcfcf;
-  font-size: 25px;
-  display: inline-block;
-  float: left;
-  line-height: 35px;
+    color: #cfcfcf;
+    font-size: 25px;
+    display: block;
+    float: left;
+    line-height: 35px;
+    opacity: .3;
+
 }
 
 .mail:hover {
-  transition: 1s;
-  color: #0371ff;
+    transition: 1s;
+    color: #0371ff;
+    opacity: 1;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
-
-.u_link {
-  color: #00AB6B;
-}
-
-.u_link:hover {
-  text-decoration: underline;
-}
-
 
 /*------------info-container-----------------------*/
 
 .container {
-  position: absolute;              
-  top: 35%;                         
-  transform: translate(0, -50%);
-  display: none;
-}
-
-h3 {
-  margin: 0;
-}
-
-.profile_img {
-  width: 200px;
-  height: 200px;
-  border-radius: 100px;
-  display: inline-block;
+    margin: 10px auto;
+    width: 99%;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
 }
 
 .info_block {
-  display: inline-block;
-  vertical-align: top;
+    display: inline-block;
+    vertical-align: top;
 }
 
-.accountGroup {
-  vertical-align: top;
-  text-align: left;
-  font-size: 30px;
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
 }
-
-.accountGroup h3, span {
-  line-height: 31px;
-}
-
-.fullName {
-  display: inline-block;
-}
-
-.userDog {
-  color: #657786;
-}
-
-.currYear::before {
-  content: "\00b7";
-}
-
-.currYear {
-  color: #657786;
-}
-
-.text-container {
-  font-size: 40px;
-  text-align: left;
-}
-

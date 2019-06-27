@@ -6,5 +6,3 @@ $(document).ready(function () {
     setTimeout(showContainer, 100);
 });
 
-
-
