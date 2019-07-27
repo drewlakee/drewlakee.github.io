@@ -1,2 +1,2 @@
-# Personal page
-Will contain some main information about me and links related with me
+# Personal Info Page
+Contains link on my sources.
