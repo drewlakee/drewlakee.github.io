@@ -48,9 +48,15 @@ h6 {
     opacity: 1;
 }
 
+.icoBandcamp:hover {
+    transition: 1s;
+    color: #1da0c3;
+    opacity: 1;
+}
+
 /*------------links-----------------------*/
 
-.links-group a:nth-child(-n+5) {
+.links-group a:nth-child(-n+6) {
     display: block;
     float: left;
     margin-right: 15px;
