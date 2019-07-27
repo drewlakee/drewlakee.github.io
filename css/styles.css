@@ -54,9 +54,15 @@ h6 {
     opacity: 1;
 }
 
+.icoSteam:hover {
+    transition: 1s;
+    color: black;
+    opacity: 1;
+}
+
 /*------------links-----------------------*/
 
-.links-group a:nth-child(-n+6) {
+.links-group a:nth-child(-n+7) {
     display: block;
     float: left;
     margin-right: 15px;
