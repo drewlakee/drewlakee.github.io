@@ -1,2 +1,2 @@
-# Personal Info Page
+# Personal Page
 Contains links on my sources.
