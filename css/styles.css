@@ -77,11 +77,10 @@ h6 {
 }
 
 .mail {
-    color: black;
-    font-size: 60px;
-    display: block;
-    line-height: 55px;
+    color:black;
+    line-height: 84px;
     opacity: .3;
+    font-size: 62px;
 }
 
 .mail:hover {
