@@ -69,7 +69,7 @@ h6 {
     display: block;
     float: left;
     margin-right: 15px;
-    font-size: 80px;
+    font-size: 120px;
 }
 
 .links-group {
@@ -78,11 +78,10 @@ h6 {
 
 .mail {
     color: black;
-    font-size: 40px;
+    font-size: 60px;
     display: block;
     line-height: 55px;
     opacity: .3;
-
 }
 
 .mail:hover {
@@ -98,9 +97,9 @@ a {
 /*------------avatar-----------------------*/
 
 .avatar {
-    width: 360px;
-    height: 360px;
-    border-radius: 190px;
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
     margin: 7px 0;
     margin-bottom: 25px;
 }
