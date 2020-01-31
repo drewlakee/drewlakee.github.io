@@ -1,16 +1,29 @@
 body {
-    font-family: "Segoe UI", Arial, sans-serif;
-    font-size: 60px;
+    font-family: "Roboto";
     text-align: center;
-    display: none;
 }
 
-h6 {
-    margin: 0px;
+a {
+    text-decoration: none;
+}
+
+.bg-body {
+    background-size: cover;
+    background: rgba(54, 62, 65, 0.95) url(https://images.wallpaperscraft.com/image/code_programming_symbols_140997_1920x1080.jpg) fixed;
+}
+
+.bg-body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(54, 62, 65, 0.95);
+    z-index: -1;
 }
 
 .main {
-    margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -18,87 +31,53 @@ h6 {
     transform: translate(-50%, -50%)
 }
 
-/*------------icons-----------------------*/
-
-.ico {
-    color: black;
-    opacity: .3;
-}
-
-.icoGithub:hover {
-    transition: 1s;
-    color: black;
-    opacity: 1;
-}
-
-.icoGitlab:hover {
-    transition: 1s;
-    color: #e24329;
-    opacity: 1;
-}
-
-.icoVk:hover {
-    transition: 1s;
-    color: #4d76a1;
-    opacity: 1;
-}
-
-.icoTelegram:hover {
-    transition: 1s;
-    color: #32aee1;
-    opacity: 1;
-}
-
-.icoInstagram:hover {
-    transition: 1s;
-    background: -webkit-linear-gradient(powderblue, pink);
-    color: transparent;
-    -webkit-background-clip: text;
-    opacity: 1;
-}
-
-.icoBandcamp:hover {
-    transition: 1s;
-    color: #1da0c3;
-    opacity: 1;
-}
-
-/*------------links-----------------------*/
-
-.links-group a:nth-child(-n+6) {
-    display: block;
-    float: left;
-    margin-right: 15px;
-    font-size: 120px;
-}
-
-.links-group {
-    line-height: 50px;
-}
-
-.mail {
-    color:black;
-    line-height: 84px;
-    opacity: .3;
-    font-size: 62px;
-}
-
-.mail:hover {
-    transition: 1s;
-    color: #0371ff;
-    opacity: 1;
-}
-
-a {
-    text-decoration: none;
-}
-
-/*------------avatar-----------------------*/
-
 .avatar {
     width: 500px;
     height: 500px;
     border-radius: 250px;
-    margin: 7px 0;
-    margin-bottom: 25px;
+    margin: 7px 0 25px;
+}
+
+.bio {
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 50px;
+}
+
+.links-group {
+    margin-bottom: 66px;
+}
+
+.links-group a:nth-child(-n+4) {
+    float: left;
+    margin-right: 15px;
+    font-size: 50px;
+}
+
+.ico {
+    color: white;
+}
+
+.ico:hover {
+    transition: 1s;
+    color: #067aff;
+}
+
+.mail {
+    font-size: 30px;
+    color: #0371ff;
+}
+
+.mail:hover {
+    transition: 1s;
+    color: #067aff;
+}
+
+.contacts {
+    text-align: left;
 }
