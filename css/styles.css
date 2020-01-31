@@ -9,7 +9,9 @@ a {
 
 .bg-body {
     background-size: cover;
-    background: rgba(54, 62, 65, 0.95) url(https://images.wallpaperscraft.com/image/code_programming_symbols_140997_1920x1080.jpg) fixed;
+    background: url(https://images.wallpaperscraft.com/image/code_programming_symbols_140997_1920x1080.jpg);
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .bg-body::after {
