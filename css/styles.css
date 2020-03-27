@@ -54,7 +54,7 @@ a {
     margin-bottom: 66px;
 }
 
-.links-group a:nth-child(-n+4) {
+.links-group a:nth-child(-n+5) {
     float: left;
     margin-right: 15px;
     font-size: 50px;
