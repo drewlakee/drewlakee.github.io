@@ -9,7 +9,7 @@ a {
 
 .bg-body {
     background-size: cover;
-    background: url(https://images.unsplash.com/photo-1583701662397-f5b882ff4787?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80) fixed;
+    background: url(https://source.unsplash.com/collection/256443/1920x1080) fixed;
     background-size: cover;
 }
 
@@ -32,13 +32,6 @@ a {
     transform: translate(-50%, -50%)
 }
 
-.avatar {
-    width: 500px;
-    height: 500px;
-    border-radius: 250px;
-    margin: 7px 0 25px;
-}
-
 .bio {
     text-align: left;
     color: white;
@@ -54,7 +47,7 @@ a {
     margin-bottom: 66px;
 }
 
-.links-group a:nth-child(-n+5) {
+.links-group a:nth-child(-n+6) {
     float: left;
     margin-right: 15px;
     font-size: 50px;
