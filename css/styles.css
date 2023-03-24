@@ -1,0 +1,77 @@
+body {
+    font-family: Verdana, sans-serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bg-body {
+    background-size: cover;
+    background: url(https://source.unsplash.com/1920x1080/?nature,water) fixed;
+    background-size: cover;
+}
+
+.bg-body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(54, 62, 65, 0.40);
+    z-index: -1;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.bio {
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 50px;
+}
+
+.links-group {
+    margin-bottom: 66px;
+}
+
+.links-group a:nth-child(-n+6) {
+    float: left;
+    margin-right: 15px;
+    font-size: 50px;
+}
+
+.ico {
+    color: white;
+}
+
+.ico:hover {
+    transition: 1s;
+    color: #067aff;
+}
+
+.mail {
+    font-size: 30px;
+    color: #0371ff;
+}
+
+.mail:hover {
+    transition: 1s;
+    color: #067aff;
+}
+
+.contacts {
+    text-align: left;
+}
