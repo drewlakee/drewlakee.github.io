@@ -146,6 +146,7 @@ span {
 }
 
 .linkedin-line:hover {
+    height : 140pt;
     font-size: 40pt;
     font-size: 90pt;
     transition-delay: 250ms;
