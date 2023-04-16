@@ -1,6 +1,8 @@
 html {
     overflow-x: hidden;
     overflow-y: hidden;
+    background-image: url('/background.png');
+    background-size: 100% 100%;
 }
 
 p {
@@ -24,13 +26,7 @@ span {
 }
 
 .bg {
-    background-color: black;
     margin: 0;
-}
-
-.line {
-    background-color: white;
-    height: 3px;
 }
 
 .plate {
@@ -97,13 +93,14 @@ span {
     width: 150pt;
     transition: 0.5s;
     text-align: center;
+    border-radius: 50%;
+    background-color: #fff;
 }
 
 .github-line {
     color: #000;
     height : 120pt;
     font-size: 80pt;
-    background-color: #fff;
 }
 
 .github-line:hover {
@@ -116,7 +113,6 @@ span {
     color: #3c6fd0;
     height : 120pt;
     font-size: 80pt;
-    background-color: #fff;
 }
 
 .telegram-line:hover {
@@ -129,7 +125,6 @@ span {
     color: #6e96fd;
     height : 120pt;
     font-size: 80pt;
-    background-color: #fff;
 }
 
 .email-line:hover {
@@ -142,7 +137,6 @@ span {
     color: #295eb3;
     height : 120pt;
     font-size: 80pt;
-    background-color: #fff;
 }
 
 .linkedin-line:hover {
